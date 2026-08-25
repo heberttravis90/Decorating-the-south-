@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#223128" />
+  <meta name="description" content="Decorating the South, LLC — hand-painted burlap creations, garlands, wreaths, and Jennirella fine art." />
+  <title>Decorating the South, LLC | Handmade Southern Art & Décor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="announcement">Hand-painted in South Louisiana • Custom orders welcome</div>
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Decorating the South home">
+        <img class="brand-logo" src="dts_logo.png" alt="Decorating the South logo">
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="#shop">Shop</a>
+        <a href="#collections">Collections</a>
+        <a href="#custom">Custom Orders</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button class="cart-button" type="button" aria-label="Open cart">Bag <span id="cartCount">0</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Decorating the South, LLC</p>
+          <h1>Southern pieces made <em>by hand.</em></h1>
+          <p class="hero-lead">Hand-painted burlap creations, seasonal décor, garlands, wreaths, gifts, and original Jennirella art — made one piece at a time.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#shop">Shop available pieces</a>
+            <a class="btn btn-light" href="#custom">Request a custom design</a>
+          </div>
+          <div class="trust-row">
+            <span>Hand-painted</span><span>Small-batch</span><span>Custom-friendly</span>
+          </div>
+        </div>
+        <figure class="hero-art">
+          <img src="dts_hero.jpg" alt="Hand-painted LSU Tigers football burlap door hanging" />
+          <figcaption><strong>Featured creation</strong><span>Hand-painted burlap • South Louisiana</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="shell three-up">
+        <div><strong>Made by hand</strong><span>No factory production. Every piece gets personal attention.</span></div>
+        <div><strong>Made to feel personal</strong><span>Seasonal favorites, gifts, team spirit, and custom ideas.</span></div>
+        <div><strong>Made in the South</strong><span>A warm Louisiana style without the mass-produced look.</span></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="shop">
+      <div class="section-heading">
+        <div><p class="kicker">Shop</p><h2>Available & made-to-order pieces</h2></div>
+        <p>Pricing can be added as each piece is finalized. The layout is ready for real inventory, availability, and checkout.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card featured-product">
+          <div class="product-image"><img src="dts_hero.jpg" alt="Geaux Tigers football burlap creation"></div>
+          <div class="product-body">
+            <div class="product-top"><span class="tag">Burlap Creation</span><span class="status">Featured</span></div>
+            <h3>Geaux Tigers Football</h3>
+            <p>Hand-painted football-shaped burlap door décor with purple and gold ribbon detail.</p>
+            <div class="product-bottom"><strong>Price coming soon</strong><button class="mini-btn add-cart" data-product="Geaux Tigers Football">Add to bag</button></div>
+          </div>
+        </article>
+
+        <article class="product-card placeholder-card">
+          <div class="placeholder-art"><span>+</span><small>Add product photo</small></div>
+          <div class="product-body"><div class="product-top"><span class="tag">Seasonal</span></div><h3>Seasonal Burlap</h3><p>Holiday, fall, spring, school spirit, and special-event designs.</p><div class="product-bottom"><strong>Coming soon</strong><a class="text-link" href="#custom">Request one</a></div></div>
+        </article>
+
+        <article class="product-card placeholder-card">
+          <div class="placeholder-art garland"><span>+</span><small>Add product photo</small></div>
+          <div class="product-body"><div class="product-top"><span class="tag">Garlands & Wreaths</span></div><h3>Door & Home Décor</h3><p>Handmade pieces designed for porches, doors, mantels, celebrations, and gifts.</p><div class="product-bottom"><strong>Coming soon</strong><a class="text-link" href="#custom">Ask about custom</a></div></div>
+        </article>
+
+        <article class="product-card placeholder-card">
+          <div class="placeholder-art art"><span>J</span><small>Jennirella Fine Art</small></div>
+          <div class="product-body"><div class="product-top"><span class="tag">Fine Art</span></div><h3>Jennirella Originals</h3><p>Original artwork and signature pieces under the Jennirella name.</p><div class="product-bottom"><strong>Gallery coming soon</strong><a class="text-link" href="#contact">Inquire</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="collections section" id="collections">
+      <div class="shell">
+        <div class="section-heading light-heading"><div><p class="kicker">Three collections. One brand.</p><h2>Find the piece that fits.</h2></div><p>Everything lives under Decorating the South, while each collection keeps its own personality.</p></div>
+        <div class="collection-grid">
+          <a href="#shop" class="collection-card"><span>01</span><h3>Burlap Creations</h3><p>Hand-painted shapes, door hangers, seasonal designs, school spirit, gifts, and personalized pieces.</p><b>Browse burlap →</b></a>
+          <a href="#shop" class="collection-card"><span>02</span><h3>Garlands & Wreaths</h3><p>Layered Southern décor for front doors, porches, holidays, parties, and everyday spaces.</p><b>Browse décor →</b></a>
+          <a href="#shop" class="collection-card"><span>03</span><h3>Jennirella Fine Art</h3><p>Original art and signature work with a more personal, gallery-style presentation.</p><b>View fine art →</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell story" id="about">
+      <div class="story-copy">
+        <p class="kicker">Made by hand, not mass produced</p>
+        <h2>Art with a little Southern personality.</h2>
+        <p>Decorating the South is built around pieces that feel personal. Each design starts with an idea and is painted, assembled, or finished by hand instead of being pulled from a warehouse shelf.</p>
+        <p>The result is décor that can celebrate a season, a team, a family, a front porch, a wedding, a gift, or simply somebody's style.</p>
+        <div class="signature">Jennirella</div>
+      </div>
+      <div class="story-panel">
+        <div class="quote">“If you can picture it, there’s a good chance we can turn it into something made just for you.”</div>
+        <div class="story-points"><span>Original ideas</span><span>Hand-painted details</span><span>Personalized requests</span><span>Louisiana-made charm</span></div>
+      </div>
+    </section>
+
+    <section class="custom-section" id="custom">
+      <div class="shell custom-grid">
+        <div>
+          <p class="kicker">Custom orders</p>
+          <h2>Have an idea that isn’t in the shop?</h2>
+          <p>Send the details. Share the occasion, colors, wording, size, style, and anything else that matters. An inspiration photo can be added to the real order workflow too.</p>
+          <ol>
+            <li><b>Tell us what you want.</b><span>Describe the piece and the look you have in mind.</span></li>
+            <li><b>We confirm the design.</b><span>Details, timing, and price are agreed on before work begins.</span></li>
+            <li><b>Your piece gets made.</b><span>Hand-painted and finished specifically for your order.</span></li>
+          </ol>
+        </div>
+        <form class="custom-form" id="customForm">
+          <h3>Request a custom piece</h3>
+          <label>Name<input required name="name" placeholder="Your name"></label>
+          <label>Email<input required type="email" name="email" placeholder="you@example.com"></label>
+          <label>What are you interested in?
+            <select name="type"><option>Burlap creation</option><option>Garland or wreath</option><option>Jennirella fine art</option><option>Not sure yet</option></select>
+          </label>
+          <label>Tell us about your idea<textarea required name="details" rows="5" placeholder="Colors, wording, occasion, size, theme, deadline..."></textarea></label>
+          <label>Inspiration photo<input type="file" accept="image/*"></label>
+          <button class="btn btn-primary wide" type="submit">Send custom request</button>
+          <p class="form-note" id="formNote">Demo form — it does not send yet.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section shell faq">
+      <div class="section-heading"><div><p class="kicker">Good to know</p><h2>Before ordering</h2></div></div>
+      <details><summary>Can I request a design I don't see online?</summary><p>Yes. Custom work is a major part of the site. Use the custom-order form to describe what you have in mind.</p></details>
+      <details><summary>Will every item always be in stock?</summary><p>No. Handmade inventory naturally changes. Products can be marked Available, Made to Order, Sold, or Coming Soon.</p></details>
+      <details><summary>Can I send an inspiration picture?</summary><p>Yes. The custom-order flow is designed to accept an inspiration image along with your colors, wording, size, and other details.</p></details>
+      <details><summary>How will payment work?</summary><p>The finished site can connect to a secure checkout provider. Prices and payment setup can be added after the business finalizes its pricing structure.</p></details>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="shell contact-inner">
+        <div><p class="kicker">Questions, orders, collaborations</p><h2>Let’s make something worth hanging up.</h2><p>Replace the demo details below with the real email, social accounts, pickup/shipping information, and business contact details.</p></div>
+        <div class="contact-card"><strong>Decorating the South, LLC</strong><span>South Louisiana</span><a href="mailto:hello@example.com">hello@example.com</a><a href="#">Facebook / Instagram</a></div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-head"><h3>Your bag</h3><button id="closeCart" aria-label="Close cart">×</button></div>
+    <div id="cartItems" class="cart-items"><p>Your bag is empty.</p></div>
+    <div class="cart-footer"><button class="btn btn-primary wide" type="button">Checkout setup coming next</button></div>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+
+  <footer><div class="shell footer-grid"><div class="brand footer-brand"><img class="brand-logo footer-logo" src="dts_logo.png" alt="Decorating the South logo"></div><p>Hand-painted Southern décor • Custom work • Jennirella Fine Art</p><small>Website concept — ready for real pricing, inventory, checkout, and contact details.</small></div></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
